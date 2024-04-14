@@ -3,11 +3,11 @@ import { Carta } from '../Cartas/Cartas.js'
 import chalk from 'chalk'
 import { Cartas_Planeswalker } from '../Cartas/Carta_Planeswalker.js'
 import { Carta_Criatura } from '../Cartas/Cartas_Criatura.js'
+import { Union } from '../client.js'
 
-type Union = Carta | Carta_Criatura | Cartas_Planeswalker |undefined
-
+/**@type __stats__ Los stats de las  criaturas */
 export type stats = [number,number]
-
+/** @interface atributos_modificar son todos los atributos que sirben para buscar y modifcar */
 export interface atributos_modificar 
 {
   ID_buscar?:number;

@@ -88,7 +88,7 @@ yargs(hideBin(process.argv)).command('add','Añade una carta en la coleccion',{
          const client = new Client(60300)
          client.conect_to_send(carta,argv.user,undefined,'add')
     })
-.help().argv
+.help().argv;
 
 
 yargs(hideBin(process.argv)).command('list','Lista las cartas de la coleccion',{
@@ -104,7 +104,7 @@ yargs(hideBin(process.argv)).command('list','Lista las cartas de la coleccion',{
    
 
 })
-.help().argv
+.help().argv;
 
 yargs(hideBin(process.argv)).command('search','buscar una carta de la coleccion',{
    user:{
@@ -121,7 +121,7 @@ yargs(hideBin(process.argv)).command('search','buscar una carta de la coleccion'
       const client = new Client(60300)
       client.conect_to_recive(argv.user,argv.id,'search')
 })
-.help().argv
+.help().argv;
 
 yargs(hideBin(process.argv)).command('delete','eliminar una carta de la coleccion',{
    user:{
@@ -138,7 +138,7 @@ yargs(hideBin(process.argv)).command('delete','eliminar una carta de la coleccio
       const client = new Client(60300)
       client.conect_to_recive(argv.user,argv.id,'delete')
 })
-.help().argv
+.help().argv;
 
 yargs(hideBin(process.argv)).command('modify','Modifica una carta de la coleccion',{
    user:{
@@ -207,7 +207,15 @@ yargs(hideBin(process.argv)).command('modify','Modifica una carta de la coleccio
       }
       client.conect_to_send(undefined,argv.user,atributos,'modify')
 })
-.help().argv
+.help().argv;
+
+
+
+
+
+ 
+
+
 
 
 

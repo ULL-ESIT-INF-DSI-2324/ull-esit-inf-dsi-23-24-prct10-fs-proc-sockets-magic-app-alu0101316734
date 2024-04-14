@@ -5,6 +5,8 @@ import { Carta } from './Cartas/Cartas.js'
 import { atributos_modificar } from './gestorfichero/GestorFichero.js'
 import chalk from 'chalk'
 
+/**
+ * @type __Union__ Es la union del tipo de cartas  y indefinido */
 export type Union = Carta | Carta_Criatura | Cartas_Planeswalker |undefined
 
 
