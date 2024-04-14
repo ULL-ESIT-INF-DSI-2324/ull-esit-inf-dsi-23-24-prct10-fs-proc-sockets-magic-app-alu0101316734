@@ -4,6 +4,14 @@
 
 El funcionamiento es: `node dist/index.js [comando para ejecutar] --opciones y valores`
 
+## Badge
+
+[![Tests](https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct10-fs-proc-sockets-magic-app-alu0101316734/actions/workflows/node.js.yml/badge.svg)](https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct10-fs-proc-sockets-magic-app-alu0101316734/actions/workflows/node.js.yml)
+
+[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct10-fs-proc-sockets-magic-app-alu0101316734/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct10-fs-proc-sockets-magic-app-alu0101316734?branch=main)
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ULL-ESIT-INF-DSI-2324_ull-esit-inf-dsi-23-24-prct10-fs-proc-sockets-magic-app-alu0101316734&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ULL-ESIT-INF-DSI-2324_ull-esit-inf-dsi-23-24-prct10-fs-proc-sockets-magic-app-alu0101316734)
+
 ## Introducción
 
 En esta practica tendremos que hacer algo muy parecido a la práctica anterior.Sin embargo, la diferencia es que usaremos unos sockets.Estos sockets serán para comportarse como cliente y como servidor.También aprovechamos para usar el api de gestión de ficheros asincronos.En nuestro caso,usaremos la parte de callback para usar en nuestros ficheros
