@@ -257,7 +257,6 @@ search_archivo(path:string, id_buscar:number, callback:(err:Error |undefined,car
            }
            else
            {
-            console.log(archivos)
              archivos.forEach(element => {
                let carta:Carta | Cartas_Planeswalker | Carta_Criatura;
                fs.readFile(path + '/' +element,(err,data)=>{

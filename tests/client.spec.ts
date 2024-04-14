@@ -11,9 +11,9 @@ import { atributos_modificar } from "../src/gestorfichero/GestorFichero.js"
 describe('Pruebas del cliente',() =>{
     
     it('deberia funcionar add con Carta normal',() =>{
-       const Server = new server(60300)
+       const Server = new server(30600)
        Server.conected()
-       const client = new Client(60300);
+       const client = new Client(30600);
        const carta = new Carta(1,"prueba",5,"negro","Encantamiento","comun","texto",4)
        client.conect_to_send(carta,'test',undefined,'add');
        fs.access('./usuarios/test/prueba.json',(err) =>{
